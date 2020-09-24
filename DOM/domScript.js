@@ -37,17 +37,17 @@ document.body.appendChild(p);
 p.innerText = "Never argue with stupid people, they will drag you down to their level and then beat you with experience. ~ Mark Twain"
 p.style.fontSize = "30px";
 p.addEventListener("click", function () {
-    console.log("p has been clicked");
+//    console.log("p has been clicked");
     p.style.color = getRandomColor();
-    function getRandomColor() {
-        var letters = '0123456789ABCDEF';
-        var color = '#';
-        for (var i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
-        }
-        return color;
-    };
 });
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+};
 
 // Step 5
 
