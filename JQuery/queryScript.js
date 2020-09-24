@@ -72,7 +72,7 @@ $(document).ready(function () {
     // Step 6
 
     const friendsArray = ["John", "Oscar", "Yogi", "Bill", "George", "Pete", "Sam", "Bruce", "Warner", "Tyler"];
-    let btn2 = $('<button> Add Friend</button>');
+    let btn2 = $('<button> Add Friend </button>');
     
     let counter = 0
     $('body').append(btn2);
