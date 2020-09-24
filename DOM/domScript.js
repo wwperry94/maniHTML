@@ -34,7 +34,7 @@ div.addEventListener("mouseout", () => {
 
 let p = document.createElement("p");
 document.body.appendChild(p);
-p.innerText = "Some Text in a paragraph"
+p.innerText = "Never argue with stupid people, they will drag you down to their level and then beat you with experience. ~ Mark Twain"
 p.style.fontSize = "30px";
 p.addEventListener("click", function () {
     console.log("p has been clicked");
