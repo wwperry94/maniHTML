@@ -21,11 +21,11 @@ document.getElementById("myButton").addEventListener("click", function () {
 // Step 3
 
 document.body.appendChild(div);
-div.style.backgroundColor = 'white';
+div.style.backgroundColor = 'white';    // in lieu of a complete .css file
 div.style.height = '50px'
 div.addEventListener("mouseover", () => {
     div.style.backgroundColor = 'crimson';
-});
+}); 
 div.addEventListener("mouseout", () => {
     div.style.backgroundColor = 'white';
 });
@@ -34,8 +34,7 @@ div.addEventListener("mouseout", () => {
 
 let p = document.createElement("p");
 document.body.appendChild(p);
-
-p.innerHTML = "Some Text in a paragraph"
+p.innerText = "Some Text in a paragraph"
 p.style.fontSize = "30px";
 p.addEventListener("click", function () {
     console.log("p has been clicked");
@@ -48,7 +47,6 @@ p.addEventListener("click", function () {
         }
         return color;
     };
-
 });
 
 // Step 5
@@ -63,6 +61,8 @@ nmButton.addEventListener('click', function () {
     nmDiv.appendChild(span);
     document.body.appendChild(nmDiv);
 });
+
+// Step 6
 
 const friendsArray = ["John", "Oscar", "Yogi", "Bill", "George", "Pete", "Sam", "Bruce", "Warner", "Tyler"];
 let button2 = document.getElementById("friendButton");
