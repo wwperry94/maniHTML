@@ -52,7 +52,7 @@ function getRandomColor() {
 // Step 5
 
 let nmButton = document.createElement('button');
-nmButton.textContent = "Display Name";
+nmButton.innerText = "Display Name";
 document.body.appendChild(nmButton);
 nmButton.addEventListener('click', function () {
     let nmDiv = document.createElement('div');
