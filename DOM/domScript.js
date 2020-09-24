@@ -67,7 +67,7 @@ nmButton.addEventListener('click', function () {
 const friendsArray = ["John", "Oscar", "Yogi", "Bill", "George", "Pete", "Sam", "Bruce", "Warner", "Tyler"];
 let button2 = document.getElementById("friendButton");
 let counter = 0
-button2.addEventListener('click', function populateFriends() {
+button2.addEventListener('click', function () {
     if (friendsArray[counter]) {
         let newLI = document.createElement("li");
         let friend = friendsArray[counter];
